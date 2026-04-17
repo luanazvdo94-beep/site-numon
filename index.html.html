@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>NumON Promotora</title>
+  <!-- Salve o logo oficial exatamente com este nome na mesma pasta do index.html: logo-numon-oficial.jpeg -->
   <meta name="description" content="Crédito do Trabalhador com atendimento rápido, simulação com vários bancos e suporte direto pelo WhatsApp." />
   <style>
     :root {
@@ -25,7 +26,10 @@
     }
 
     * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 110px;
+    }
     body {
       margin: 0;
       font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -39,6 +43,10 @@
 
     a { color: inherit; text-decoration: none; }
     img { display: block; max-width: 100%; }
+
+    section[id] {
+      scroll-margin-top: 110px;
+    }
 
     .container {
       width: min(calc(100% - 40px), var(--max));
@@ -591,7 +599,7 @@
   <header class="site-header">
     <div class="container header-inner">
       <a class="brand" href="#inicio" aria-label="NumON Promotora">
-        <img src="logo-numon-premium.jpg" alt="NumON Promotora" />
+        <img src="logo-numon-oficial.jpeg" alt="NumON Promotora" />
       </a>
 
       <nav class="nav">
@@ -611,7 +619,7 @@
     <section class="hero" id="inicio">
       <div class="container hero-grid">
         <div class="hero-copy">
-          <div class="eyebrow">Promotora de crédito premium</div>
+          <div class="eyebrow">Promotora de crédito</div>
           <h1>
             Descubra agora quanto você pode liberar no <span class="accent">Crédito do Trabalhador</span>
           </h1>
@@ -640,7 +648,7 @@
 
           <div class="visual-card">
             <div class="visual-logo-shell">
-              <img src="logo-numon-premium.jpg" alt="Logo NumON Promotora" />
+              <img src="logo-numon-oficial.jpeg" alt="Logo NumON Promotora" />
             </div>
 
             <div class="mini-stats">
@@ -765,10 +773,7 @@
       <div class="container">
         <div class="section-head">
           <div class="kicker">Dúvidas frequentes</div>
-          <h2>Respostas objetivas para reduzir atrito e aumentar conversão</h2>
-          <p>
-            O site precisa diminuir dúvidas, aumentar confiança e levar a pessoa para a conversa com a equipe.
-          </p>
+          <h2>Perguntas frequentes</h2>
         </div>
 
         <div class="faq">
@@ -792,7 +797,7 @@
   <footer class="site-footer" id="contato">
     <div class="container footer-inner">
       <div class="footer-brand">
-        <img src="logo-numon-premium.jpg" alt="NumON Promotora" />
+        <img src="logo-numon-oficial.jpeg" alt="NumON Promotora" />
         <div>NumON Promotora • Atendimento via WhatsApp</div>
       </div>
       <div>© NumON Promotora. Todos os direitos reservados.</div>
